@@ -1,7 +1,7 @@
-# Name of the project
+# How to start Create React App
 
-Some information about the project
+A simple Create React App page that stores [this article](https://link.medium.com/qlB2TaPhfsb) from Medium.
 
 ## Made with
 
-Create React App
+Create React App, Prettier

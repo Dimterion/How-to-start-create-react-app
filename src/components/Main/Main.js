@@ -19,15 +19,15 @@ function Main() {
       <p>
         I was recently doing another React project and decided to write down a
         few of the starting steps, so I can reread them at some point in the
-        future and see if it still what I do.<br></br>
+        future and see if it's still what I do.<br></br>
         <br></br>
         These are just personal thoughts that worked for me so far, so nothing
         too "best-practicey" and "best-approachey".<br></br>
         <br></br>
         To make a visual example, I've sort of recreated this text into React
         code and deployed it through <a href="https://vercel.com/">Vercel</a> (a
-        very simple page, just to show how it supposed to work). The result can
-        be seen{" "}
+        very simple page, just to show how it's supposed to work). The result
+        can be seen{" "}
         <a href="https://how-to-start-create-react-app.vercel.app/">here</a> and
         the repo is{" "}
         <a href="https://github.com/Dimterion/How-to-start-create-react-app">
@@ -216,7 +216,7 @@ function Main() {
         I won't go into details about HTML and CSS used. I just added it the
         simplest way it seemed possible as it wasn't the objective for this one
         (no judgement, ok?). I simply wanted to create and show this same text
-        but created with the basic Create React App.<br></br>
+        but made with the basic Create React App.<br></br>
         <br></br>
         That's pretty much it about how it looks and works. If you found this
         so-called guide useful, I sincerely thank thee kind person.
