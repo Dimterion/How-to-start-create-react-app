@@ -24,15 +24,27 @@ function Main() {
         These are just personal thoughts that worked for me so far, so nothing
         too "best-practicey" and "best-approachey".<br></br>
         <br></br>
+        To make a visual example, I've sort of recreated this text into React
+        code and deployed it through <a href="https://vercel.com/">Vercel</a> (a
+        very simple page, just to show how it supposed to work). The result can
+        be seen{" "}
+        <a href="https://how-to-start-create-react-app.vercel.app/">here</a> and
+        the repo is{" "}
+        <a href="https://github.com/Dimterion/How-to-start-create-react-app">
+          here.
+        </a>
+        <br></br>
+        <br></br>
         To simplify things I use{" "}
         <a href="https://create-react-app.dev/">Create React App</a> and my code
         editor is <a href="https://code.visualstudio.com/">VSCode</a>.<br></br>
         <br></br>
-        Note: I also use <a href="https://prettier.io/">Prettier</a> to make the
-        code look more or less "in-shape", but that's not really necessary, so I
-        won't go through the details about it. In my code it just adds identical
-        tab widths of 2, semicolons and double quotes. Otherwise, if seen on the
-        further screenshots, the file .prettierrc can be ignored.<br></br>
+        <i>Note:</i> I also use <a href="https://prettier.io/">Prettier</a> to
+        make the code look more or less "in-shape", but that's not really
+        necessary, so I won't go through the details about it. In my code it
+        just adds identical tab widths of 2, semicolons and double quotes.
+        Otherwise, if seen on the further screenshots, the file{" "}
+        <b>.prettierrc</b> can be ignored.<br></br>
         <br></br>
         When you start a new app it will be created within a new folder
         automatically, so, if you already created one and choose it as initial,
@@ -41,29 +53,36 @@ function Main() {
         have a folder within a folder.<br></br>
         <br></br>
         Once the directory is chosen, open the terminal and use the following
-        command (make sure to replace the my-app part with the name of your
-        project or how you would like your project folder to be called, because
-        this is going to be its name; use "kebab-case-format" for it):<br></br>
+        command (make sure to replace the <b>my-app</b> part with the name of
+        your project or how you would like your project folder to be called,
+        because this is going to be its name; use "kebab-case-format" for it):
         <br></br>
-        npx create-react-app my-app<br></br>
+        <br></br>
+        <i>npx create-react-app my-app</i>
+        <br></br>
         <br></br>
         After a bit of time (depending on your PC) the basic React app structure
         will be created. Then you can use these commands to run it (it will also
-        be written in the terminal; my-app - is the name you chose earlier):
+        be written in the terminal; <b>my-app</b> - is the name you chose
+        earlier):
         <br></br>
         <br></br>
-        cd my-app<br></br>
+        <i>cd my-app</i>
         <br></br>
-        npm start<br></br>
         <br></br>
-        However, I usually open a new VSCode window and choose the my-app folder
-        directly. Otherwise, you are one folder up, and every time you need to
-        add something new to your app through the terminal, you need to make
-        sure that you're in the my-app folder and not in the previous folder you
-        chose initially. For me it's just easier to reopen the project folder,
-        so my initial path is always the app folder itself. E.g., in that case
-        you can run the app with npm start without the need to cd my-app.
+        <i>npm start</i>
         <br></br>
+        <br></br>
+        However, I usually open a new VSCode window and choose the <b>
+          my-app
+        </b>{" "}
+        folder directly. Otherwise, you are one folder up, and every time you
+        need to add something new to your app through the terminal, you need to
+        make sure that you're in the <b>my-app</b> folder and not in the
+        previous folder you chose initially. For me it's just easier to reopen
+        the project folder, so my initial path is always the app folder itself.
+        E.g., in that case you can run the app with <i>npm start</i> without the
+        need to <i>cd my-app</i>.<br></br>
         <br></br>
         Once you start the app, the basic page for Create React App will be
         opened in your browser:<br></br>
@@ -92,38 +111,46 @@ function Main() {
         </li>
         <li>
           <p>
-            Then remove everything from the src folder except for App.css,
-            App.js, index.css, index.js.
+            Then remove everything from the <b>src</b> folder except for{" "}
+            <b>App.css</b>, <b>App.js</b>, <b>index.css</b>, <b>index.js</b>.
           </p>
         </li>
         <li>
-          <p>Remove all the comments and reportWebVitals() from index.js.</p>
+          <p>
+            Remove all the comments and <i>reportWebVitals()</i> from{" "}
+            <b>index.js</b>.
+          </p>
           <img src={indexJsCodeImg} alt="index.js initial code." />
         </li>
         <li>
           <p>
-            Remove everything from index.css (although some may found it useful
-            to leave "body - margin: 0" there).
+            Remove everything from <b>index.css</b> (although some may found it
+            useful to leave "body - margin: 0" there).
           </p>
         </li>
         <li>
           <p>
-            From App.js remove imported logo and all the html-elements from the
-            function App. Put some "hello-worldish" element to test that it
-            renders properly later.
+            From <b>App.js</b> remove imported logo and all the html-elements
+            from the function App. Put some "hello-worldish" element to test
+            that it renders properly later.
           </p>
           <img src={appJsCodeImg} alt="App.js initial code." />
         </li>
         <li>
-          <p>Remove everything from App.css.</p>
-        </li>
-        <li>
-          <p>In the public folder delete everything except for index.html.</p>
+          <p>
+            Remove everything from <b>App.css.</b>
+          </p>
         </li>
         <li>
           <p>
-            Remove all the comments from index.html, change the title tag to
-            what you need it to be, remove all the link-tags.
+            In the <b>public</b> folder delete everything except for{" "}
+            <b>index.html</b>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Remove all the comments from <b>index.html</b>, change the title tag
+            to what you need it to be, remove all the link-tags.
           </p>
           <img src={indexHtmlCodeImg} alt="index.html initial code." />
         </li>
@@ -132,29 +159,30 @@ function Main() {
         After this you should see your Hello world page in the browser without
         any errors.<br></br>
         <br></br>
-        And the file structure will look like this (as said before,
-        ignore .prettierrc if you don't use it):
+        And the file structure will look like this (as said before, ignore 
+        <b>.prettierrc</b> if you don't use it):
       </p>
       <img src={filesStructureImg02} alt="Create React App files structure." />
       <p>
-        So far there's one component, App.js which creates "Hello world" tag and
-        it's then being rendered in index.js.<br></br>
+        So far there's one component, <b>App.js</b> which creates "Hello world"
+        tag and it's then being rendered in <b>index.js</b>.<br></br>
         <br></br>
-        Then in the src folder I create the following main folders for the
-        project: assets, components, pages. This is subjective, so it can be
-        done differently depending on various standards/preferences (+ I won't
-        mention making a utils folder as I won't be using any additional
-        utilities for this app).<br></br>
+        Then in the <b>src</b> folder I create the following main folders for
+        the project: <b>assets</b>, <b>components</b>, <b>pages</b>. This is
+        subjective, so it can be done differently depending on various
+        standards/preferences (+ I won't mention making a <b>utils</b> folder as
+        I won't be using any additional utilities for this app).<br></br>
         <br></br>
-        Assets stores mostly images, gifs, etc., components is used for the
-        smallest elements which are (ta-dam!) components, and in pages you keep
-        you (another ta-dam!) pages which sum up all the necessary components in
-        them.<br></br>
+        <b>Assets</b> stores mostly images, gifs, etc., <b>components</b> is
+        used for the smallest elements which are (ta-dam!) components, and in{" "}
+        <b>pages</b> you keep you (another ta-dam!) pages which sum up all the
+        necessary components in them.<br></br>
         <br></br>I store each component and page in a separate folder as I
         prefer making a separate CSS-file for each one of them. However, if you
-        use styled components, write all the CSS in one file or do whatever else
-        you prefer, you may not need separate folders (and probably, you also
-        don't need you App.css file then).<br></br>
+        use <a href="https://styled-components.com/">styled components</a>,
+        write all the CSS in one file or do whatever else you prefer, you may
+        not need separate folders (and probably, you also don't need you{" "}
+        <b>App.css</b> file then).<br></br>
         <br></br>
         This app will have only one page, but for the sake of example I'll
         spread all the files into the mentioned folders just to show how it
@@ -163,13 +191,21 @@ function Main() {
         Files structure so far:
       </p>
       <img src={filesStructureImg03} alt="Files structure of the project." />
-      <p>App.js file:</p>
+      <p>
+        <b>App.js</b> file:
+      </p>
       <img src={appJsImg} alt="App.js file of the project." />
-      <p>Home.js file:</p>
+      <p>
+        <b>Home.js</b> file:
+      </p>
       <img src={homeJsImg} alt="Home.js file of the project." />
-      <p>Header.js file:</p>
+      <p>
+        <b>Header.js</b> file:
+      </p>
       <img src={headerJsImg} alt="Header.js file of the project." />
-      <p>Main.js file:</p>
+      <p>
+        <b>Main.js</b> file:
+      </p>
       <img src={mainJsImg} alt="Main.js file of the project." />
       <p>
         Now, I did some tweaking and basically recreated this article into a
