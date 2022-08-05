@@ -10,6 +10,7 @@ import appJsImg from "../../assets/Image-10.PNG";
 import homeJsImg from "../../assets/Image-11.PNG";
 import headerJsImg from "../../assets/Image-12.PNG";
 import mainJsImg from "../../assets/Image-13.PNG";
+import filesStructureImg04 from "../../assets/Image-14.PNG";
 import "./main.css";
 
 function Main() {
@@ -23,14 +24,15 @@ function Main() {
         These are just personal thoughts that worked for me so far, so nothing
         too "best-practicey" and "best-approachey".<br></br>
         <br></br>
-        To simplify things I use Create React App and my code editor is VSCode.
+        To simplify things I use{" "}
+        <a href="https://create-react-app.dev/">Create React App</a> and my code
+        editor is <a href="https://code.visualstudio.com/">VSCode</a>.<br></br>
         <br></br>
-        <br></br>
-        Note: I also use Prettier to make the code look more or less "in-shape",
-        but that's not really necessary, so I won't go through the details about
-        it. In my code it just adds identical tab widths of 2, semicolons and
-        double quotes. Otherwise, if seen on the further screenshots, the
-        file .prettierrc can be ignored.<br></br>
+        Note: I also use <a href="https://prettier.io/">Prettier</a> to make the
+        code look more or less "in-shape", but that's not really necessary, so I
+        won't go through the details about it. In my code it just adds identical
+        tab widths of 2, semicolons and double quotes. Otherwise, if seen on the
+        further screenshots, the file .prettierrc can be ignored.<br></br>
         <br></br>
         When you start a new app it will be created within a new folder
         automatically, so, if you already created one and choose it as initial,
@@ -82,9 +84,10 @@ function Main() {
           </p>
           <img src={readmeImg} alt="Basic project Readme file." />
           <p>
-            You can follow the example of the Markdown format that was in the
-            Readme initially or simply google something like "basic markdown
-            example".
+            You can follow the example of the{" "}
+            <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> format
+            that was in the Readme initially or simply google something like
+            "basic markdown example".
           </p>
         </li>
         <li>
@@ -168,6 +171,20 @@ function Main() {
       <img src={headerJsImg} alt="Header.js file of the project." />
       <p>Main.js file:</p>
       <img src={mainJsImg} alt="Main.js file of the project." />
+      <p>
+        Now, I did some tweaking and basically recreated this article into a
+        React-page. Here's one final screenshot of the files structure:
+      </p>
+      <img src={filesStructureImg04} alt="Final files structure." />
+      <p>
+        I won't go into details about HTML and CSS used. I just added it the
+        simplest way it seemed possible as it wasn't the objective for this one
+        (no judgement, ok?). I simply wanted to create and show this same text
+        but created with the basic Create React App.<br></br>
+        <br></br>
+        That's pretty much it about how it looks and works. If you found this
+        so-called guide useful, I sincerely thank thee kind person.
+      </p>
     </main>
   );
 }
